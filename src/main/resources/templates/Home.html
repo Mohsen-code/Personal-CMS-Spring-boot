@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="../static/css/bootstrap.rtl.min.css" />
   <link href="../static/css/home.style.css" rel="stylesheet" />
 
-  <title>Home Page</title>
+  <title>Blog</title>
 </head>
 
 <body>
@@ -18,7 +18,7 @@
 
   <div class="container-fluid p-0">
     <nav class="navbar navbar-expand-lg navbar-light bg-primary">
-      <div class="container-fluid">
+      <div class="container">
         <a class="navbar-brand text-white" href="#">عنوان سایت</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,10 +27,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link text-light active" aria-current="page" href="#">صفحه اصلی</a>
+              <a class="nav-link text-black-50" aria-current="page" href="#">صفحه اصلی</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-black-50" href="#">وبلاگ</a>
+              <a class="nav-link text-light active" href="#">وبلاگ</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-black-50" href="#">درباره ما</a>
@@ -46,14 +46,284 @@
             </li>
           </ul>
           <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="جستجو" aria-label="Search">
+            <input class="form-control me-2" type="search" placeholder="متن..." aria-label="Search">
             <button class="btn btn-outline-light" type="submit">جستجو</button>
           </form>
         </div>
       </div>
     </nav>
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-lg-8">
+
+          <div class="row">
+            <div id="carouselExampleIndicators" class="carousel slide home__carousel" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="../static/images/1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="../static/images/2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="../static/images/3.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+
+
+          <div class="row my-3">
+            <div class="col">
+              <div class="card p-2">
+                <div class="row">
+                  <div class="col-lg-4">
+                    <img src="../static/images/1.jpg" class="card-img-top" alt="">
+                  </div>
+                  <div class="col-lg-8 p-0">
+                    <div class="card-body pb-0">
+                      <h5 class="card-title lh-base">
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+                      </h5>
+                      <p class="card-text home__post__description">
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز
+                      </p>
+  
+                      <div class="clearfix"></div>
+                      <a href="#" class="btn btn-primary">ادامه مطلب</a>
+                      <div class="h6 text-black-50 float-end mt-3">تاریخ:‌ 1401/01/01</div>
+                      <div class="clearfix"></div>
+  
+                      
+                      <div class="home__post-detail mt-4">
+                        <ul class="d-flex list-unstyled justify-content-between">
+                          <li>نویسنده: <a href="#" title="#" class="text-decoration-none text-primary">محسن</a></li>
+                          <li>تعداد بازدید: 23</li>
+                          <li>نظرات:‌ 3</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+  
+              </div>
+            </div>
+          </div>
+
+          <div class="row my-3">
+            <div class="col">
+              <div class="card p-2">
+                <div class="row">
+                  <div class="col-lg-4">
+                    <img src="../static/images/1.jpg" class="card-img-top" alt="">
+                  </div>
+                  <div class="col-lg-8 p-0">
+                    <div class="card-body pb-0">
+                      <h5 class="card-title lh-base">
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+                      </h5>
+                      <p class="card-text home__post__description">
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز
+                      </p>
+  
+                      <div class="clearfix"></div>
+                      <a href="#" class="btn btn-primary">ادامه مطلب</a>
+                      <div class="h6 text-black-50 float-end mt-3">تاریخ:‌ 1401/01/01</div>
+                      <div class="clearfix"></div>
+  
+                      
+                      <div class="home__post-detail mt-4">
+                        <ul class="d-flex list-unstyled justify-content-between">
+                          <li>نویسنده: <a href="#" title="#" class="text-decoration-none text-primary">محسن</a></li>
+                          <li>تعداد بازدید: 23</li>
+                          <li>نظرات:‌ 3</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+          <div class="row">
+            <div class="col">
+              <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-start">
+                  <li class="page-item disabled">
+                    <a class="page-link">قبلی</a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">بعدی</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+
+
+        </div>
+        <div class="col-lg-4">
+
+          <div class="row">
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">ورود به سایت</h5>
+                  <div class="card-text">
+                    <form action="#" method="post">
+                      <div class="mb-3 row">
+                        <label for="staticEmail" class="col-form-label">ایمیل:</label>
+                        <div class="col">
+                          <input type="text" class="form-control" id="staticEmail">
+                        </div>
+                      </div>
+                      <div class="mb-3 row">
+                        <label for="inputPassword" class="col-form-label">پسورد:</label>
+                        <div class="col">
+                          <input type="password" class="form-control" id="inputPassword">
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                  <a href="#" class="btn btn-primary">ورود</a>
+  
+                  <span class="ms-2"><a href="#" class="text-decoration-none">فراموشی رمز عبور</a></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="row my-3">
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title border-bottom pb-2 mb-3">دسته بندی</h5>
+                  <div class="card-text">
+                    <ul class="list-unstyled">
+                      <li>
+                        <a href="#" title="#" class="link-primary text-decoration-none">
+                          <div>عنوان دسته بندی</div>
+                        </a>
+                      </li>
+
+                      <li>
+                        <a href="#" title="#" class="link-primary text-decoration-none">
+                          <div>عنوان دسته بندی</div>
+                        </a>
+                      </li>
+
+                      <li>
+                        <a href="#" title="#" class="link-primary text-decoration-none">
+                          <div>عنوان دسته بندی</div>
+                        </a>
+                      </li>
+
+                      <li>
+                        <a href="#" title="#" class="link-primary text-decoration-none">
+                          <div>عنوان دسته بندی</div>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="row my-3">
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title border-bottom pb-2 mb-3">آرشیو</h5>
+                  <div class="card-text">
+                    <ul class="list-unstyled">
+                      <li>
+                        <a href="#" title="#" class="link-primary text-decoration-none">
+                          <div>دی 1400</div>
+                        </a>
+                      </li>
+
+                      <li>
+                        <a href="#" title="#" class="link-primary text-decoration-none">
+                          <div>بهمن 1400</div>
+                        </a>
+                      </li>
+
+                      <li>
+                        <a href="#" title="#" class="link-primary text-decoration-none">
+                          <div>اسفند 1400</div>
+                        </a>
+                      </li>
+
+                      <li>
+                        <a href="#" title="#" class="link-primary text-decoration-none">
+                          <div>فروردین 1401</div>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
   </div>
 
+
+
+
+  <div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+        <span class="text-muted">© تمامی حقوق متعلق به این سایت می باشد.</span>
+      </div>
+  
+      <div class="d-flex justify-content-end">
+        طراحی و پیاده سازی با ❤️ توسط من
+      </div>
+      <!-- <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+        <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+        <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+      </ul> -->
+    </footer>
+  </div>
 
   <!-- Optional JavaScript; choose one of the two! -->
 
